@@ -1,5 +1,4 @@
-<h1>hi</h1>
-<%= form_for(@coupon) do |f| %>
+<%= form_with url: root_path do |f| %>
   <%= f.label :name, "姓名" %>
   <%= f.text_field :name %> <br />
 
